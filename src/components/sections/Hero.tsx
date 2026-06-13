@@ -9,16 +9,6 @@ export default function Hero() {
       <div className={styles.grid} aria-hidden="true" />
 
       <div className={styles.content}>
-        {/* Astro badge */}
-        <div className={styles.astroBadge}>
-          <span className={styles.astroIcon}>✦</span>
-          <span>{profile.astrology.sun}</span>
-          <span className={styles.dot}>·</span>
-          <span>{profile.astrology.ascendant} Asc</span>
-          <span className={styles.dot}>·</span>
-          <span>{profile.astrology.resonance}</span>
-        </div>
-
         {/* Name */}
         <h1 className={styles.name}>{profile.name}</h1>
 
@@ -55,8 +45,15 @@ export default function Hero() {
               <line x1="16" y1="17" x2="8" y2="17" />
               <polyline points="10 9 9 9 8 9" />
             </svg>
-            Descargar CV
+            Ver CV
           </Link>
+        </div>
+
+        {/* Astrology - subtle, at the bottom */}
+        <div className={styles.astroBadge}>
+          <span>{profile.astrology.sun}</span>
+          <span className={styles.dot}>·</span>
+          <span>{profile.astrology.ascendant} Asc</span>
         </div>
 
         {/* Scroll indicator */}
