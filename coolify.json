@@ -1,0 +1,13 @@
+{
+  "name": "aparilli-dev",
+  "uuid": "80591aa5f04feff247edae950bfd9fc3",
+  "description": "Personal portfolio - aparilli.dev",
+  "repository": "andresparilli/aparilli-dev",
+  "branch": "main",
+  "build_pack": "nixpacks",
+  "port": 3000,
+  "environment": "production",
+  "auto_deploy": true,
+  "domain": "aparilli.dev",
+  "webhook_secret": "bb36136355f7f8a2ee58f7e58394c54ff3bd60e5881c5fbf30750546d1ebc898"
+}
