@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# build outputs
+.next/
+out/
+dist/
+build/
+
+# misc
+.DS_Store
+*.log
+.npm
+.env
+.env*.local
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# vercel
+.vercel
+
+# testing
+coverage/
+
+# ide
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# git
+.git/
+.gitignore

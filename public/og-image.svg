@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#16161f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c5ce0"/>
+      <stop offset="100%" stop-color="#9070f0"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="80%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#7c5ce0" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7c5ce0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.07" stroke="#7c5ce0" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="480" x2="1200" y2="480"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="60" y1="0" x2="60" y2="630"/>
+    <line x1="120" y1="0" x2="120" y2="630"/>
+    <line x1="180" y1="0" x2="180" y2="630"/>
+    <line x1="240" y1="0" x2="240" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="360" y1="0" x2="360" y2="630"/>
+    <line x1="420" y1="0" x2="420" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/>
+    <line x1="540" y1="0" x2="540" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="660" y1="0" x2="660" y2="630"/>
+    <line x1="720" y1="0" x2="720" y2="630"/>
+    <line x1="780" y1="0" x2="780" y2="630"/>
+    <line x1="840" y1="0" x2="840" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="960" y1="0" x2="960" y2="630"/>
+    <line x1="1020" y1="0" x2="1020" y2="630"/>
+    <line x1="1080" y1="0" x2="1080" y2="630"/>
+    <line x1="1140" y1="0" x2="1140" y2="630"/>
+  </g>
+
+  <!-- Orb glow -->
+  <ellipse cx="950" cy="120" rx="400" ry="300" fill="url(#orb)"/>
+
+  <!-- Astro badge -->
+  <rect x="80" y="80" width="360" height="36" rx="18" fill="rgba(124,92,224,0.15)" stroke="rgba(124,92,224,0.3)"/>
+  <text x="100" y="104" font-family="monospace" font-size="14" fill="#7c5ce0">♓ Piscis 27° · ♒ Acuario Asc · Visionario Místico-Guerrero</text>
+
+  <!-- Name -->
+  <text x="80" y="210" font-family="system-ui, sans-serif" font-size="72" font-weight="700" fill="#f0f0f5" letter-spacing="-2">Andrés E. Parilli</text>
+
+  <!-- Title -->
+  <text x="80" y="260" font-family="monospace" font-size="20" fill="#9090a0">IT Director @ The U For You  ·  CEO @ Grupo Plus Tech</text>
+
+  <!-- Tagline -->
+  <text x="80" y="310" font-family="system-ui, sans-serif" font-size="22" fill="#9090a0" font-style="italic">"Construyo sistemas que piensan, proyectos que duran,</text>
+  <text x="80" y="340" font-family="system-ui, sans-serif" font-size="22" fill="#9090a0" font-style="italic">y equipos que operan solos."</text>
+
+  <!-- Separator -->
+  <rect x="80" y="380" width="120" height="2" fill="url(#accent)"/>
+
+  <!-- Tags -->
+  <g font-family="monospace" font-size="13">
+    <rect x="80" y="410" width="100" height="26" rx="13" fill="rgba(124,92,224,0.15)" stroke="rgba(124,92,224,0.3)"/>
+    <text x="96" y="428" fill="#7c5ce0">Next.js</text>
+
+    <rect x="190" y="410" width="100" height="26" rx="13" fill="rgba(124,92,224,0.15)" stroke="rgba(124,92,224,0.3)"/>
+    <text x="206" y="428" fill="#7c5ce0">TypeScript</text>
+
+    <rect x="300" y="410" width="120" height="26" rx="13" fill="rgba(124,92,224,0.15)" stroke="rgba(124,92,224,0.3)"/>
+    <text x="316" y="428" fill="#7c5ce0">CSS Modules</text>
+
+    <rect x="430" y="410" width="100" height="26" rx="13" fill="rgba(124,92,224,0.15)" stroke="rgba(124,92,224,0.3)"/>
+    <text x="446" y="428" fill="#7c5ce0">Coolify</text>
+
+    <rect x="80" y="446" width="80" height="26" rx="13" fill="rgba(224,92,75,0.15)" stroke="rgba(224,92,75,0.3)"/>
+    <text x="96" y="464" fill="#e05c4b">Agents IA</text>
+
+    <rect x="170" y="446" width="100" height="26" rx="13" fill="rgba(124,92,224,0.15)" stroke="rgba(124,92,224,0.3)"/>
+    <text x="186" y="464" fill="#7c5ce0">OpenClaw</text>
+
+    <rect x="280" y="446" width="100" height="26" rx="13" fill="rgba(124,92,224,0.15)" stroke="rgba(124,92,224,0.3)"/>
+    <text x="296" y="464" fill="#7c5ce0">Docker</text>
+  </g>
+
+  <!-- URL -->
+  <text x="80" y="560" font-family="monospace" font-size="16" fill="#5a5a6e">aparilli.dev</text>
+
+  <!-- Logo mark -->
+  <text x="1100" y="580" font-family="monospace" font-size="80" font-weight="700" fill="rgba(124,92,224,0.15)">@</text>
+</svg>

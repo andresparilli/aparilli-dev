@@ -1,8 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  turbopack: {
-    root: "/root/aparilli-dev",
+  // images.unoptimized = true only needed for static export
+  images: {
+    unoptimized: true,
   },
 };
 

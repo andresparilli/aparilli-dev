@@ -16,7 +16,7 @@ export const profile = {
   },
 
   bio: `Soy Andrés Parilli — IT Director de The U For You y CEO de Grupo Plus Tech.
-Llevo 7 años construyendo tecnología que solve problemas reales: plataformas educativas,
+Llevo 7 años construyendo tecnología que solucionan problemas reales: plataformas educativas,
 sistemas de CRM, automatizaciones con agentes IA, e infraestructura que aguanta 500+
 usuarios concurrentes.
 
