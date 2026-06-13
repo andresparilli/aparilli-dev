@@ -1,6 +1,6 @@
 // Datos biográficos de Andrés Parilli
 export const profile = {
-  name: "Andrés E. Parilli Marcano",
+  name: "Andrés E. Parilli",
   shortName: "Andrés",
   title: "Desarrollador Web & Director de Proyectos",
   tagline: "Construyo sistemas que piensan, proyectos que duran, y equipos que operan solos.",
