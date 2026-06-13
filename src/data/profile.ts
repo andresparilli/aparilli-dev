@@ -1,8 +1,8 @@
 // Datos biográficos de Andrés Parilli
 export const profile = {
   name: "Andrés E. Parilli Marcano",
-  shortName: "Andrés Parilli",
-  title: "IT Director & Tech Entrepreneur",
+  shortName: "Andrés",
+  title: "Desarrollador Web & Director de Proyectos",
   tagline: "Construyo sistemas que piensan, proyectos que duran, y equipos que operan solos.",
   location: "Caracas, Venezuela",
   timezone: "America/Caracas (UTC-4)",
@@ -15,18 +15,14 @@ export const profile = {
     tufy: "tu4u.com",
   },
 
-  bio: `Soy Andrés Parilli — IT Director de The U For You y CEO de Grupo Plus Tech.
-Llevo 7 años construyendo tecnología que solucionan problemas reales: plataformas educativas,
-sistemas de CRM, automatizaciones con agentes IA, e infraestructura que aguanta 500+
-usuarios concurrentes.
+  bio: `Desarrollador web con experiencia en React, Next.js y TypeScript. Lidero proyectos de tecnología en The U For You y Grupo Plus Tech, donde dirijo equipos y construyo plataformas que sirven a cientos de usuarios. Apasionado por el código limpio, la arquitectura escalable y el trabajo en equipo efectivo.
 
-Nacido en Caracas, adoptado, enamorado de Erika, padre de Ricardo.
-La astrología me enseñó que mi trabajo no es ejecutar — es ver el mapa completo y señalar el norte.`,
+Me especializo en desarrollo frontend con React/Next.js, automatización con agentes IA, y gestión de infraestructura en la nube. Creo firmemente que la tecnología funciona mejor cuando se construye con propósito y se entrega con calidad.`,
 
   roles: [
-    { org: "The U For You", role: "IT Director", period: "2019 — presente" },
-    { org: "Grupo Plus Tech", role: "CEO & Fundador", period: "2019 — presente" },
-    { org: "Caminarte", role: "Fundador", period: "2022 — presente" },
+    { org: "The U For You", role: "IT Director & Lead Developer", period: "2019 — presente" },
+    { org: "Grupo Plus Tech", role: "CEO & Lead Developer", period: "2019 — presente" },
+    { org: "Caminarte Baruta", role: "Fundador & Desarrollador", period: "2022 — presente" },
   ],
 
   astrology: {
