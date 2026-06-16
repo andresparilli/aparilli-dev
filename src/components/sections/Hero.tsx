@@ -23,6 +23,11 @@ export default function Hero() {
           <span>CEO</span>
         </p>
 
+        {/* Technical Specialties Subtitle */}
+        <p className={styles.subtitle}>
+          DevOps · Full-Stack Developer · AI Agent Architect
+        </p>
+
         {/* Tagline */}
         <p className={styles.tagline}>&ldquo;{profile.tagline}&rdquo;</p>
 

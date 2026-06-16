@@ -56,13 +56,13 @@ export const projects: Project[] = [
   },
   {
     name: "Ganadero 507",
-    description: "Plataforma de gestión ganadera para Venezuela.",
+    description: "Sistema multiplataforma de gestión ganadera con Tauri v2 y SQLite.",
     longDescription:
-      "Sistema de registro de ganado, inventario, ventas, historia clínica animal y reportes para ranchers venezolanos.",
+      "Aplicación avanzada para escritorio (Windows, macOS, Linux) y dispositivos móviles (iOS, Android) construida con Tauri v2, Next.js 16, React 19 y SQLite para almacenamiento local fuera de línea.",
     year: 2024,
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "Charts"],
+    tags: ["Tauri v2", "Next.js", "React 19", "SQLite", "TypeScript"],
     status: "maintained",
-    featured: false,
+    featured: true,
   },
   {
     name: "OpenClaw Ecosystem",
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     year: 2024,
     tags: ["OpenClaw", "Agents IA", "Telegram Bot", "Python", "Node.js"],
     status: "active",
-    featured: false,
+    featured: true,
   },
 ];
 

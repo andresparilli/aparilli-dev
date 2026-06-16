@@ -86,6 +86,17 @@
 .titleOrg { color: var(--accent); }
 .titleSep { color: var(--text-muted); }
 
+.subtitle {
+  font-family: var(--font-mono);
+  font-size: clamp(0.75rem, 2vw, 0.85rem);
+  color: var(--accent-glow);
+  margin-top: -1rem;
+  margin-bottom: 1.75rem;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 /* Tagline */
 .tagline {
   font-size: clamp(1rem, 2.5vw, 1.25rem);

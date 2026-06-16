@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./ProjectsGrid.module.css";
-import { projects, type Project } from "@/data/projects";
+import { featuredProjects, type Project } from "@/data/projects";
 
 function ProjectCard({ project }: { project: Project }) {
   return (
@@ -63,7 +63,7 @@ export default function ProjectsGrid() {
         <div className={styles.header}>
           <div>
             <p className="section-label">Portfolio</p>
-            <h2 className={styles.title}>Proyectos que importan</h2>
+            <h2 className={styles.title}>Proyectos destacados</h2>
           </div>
           <Link href="/projects" className="btn btn-secondary">
             Ver todos →
@@ -71,7 +71,7 @@ export default function ProjectsGrid() {
         </div>
 
         <div className={styles.grid}>
-          {projects.map((project) => (
+          {featuredProjects.map((project) => (
             <ProjectCard key={project.name} project={project} />
           ))}
         </div>
