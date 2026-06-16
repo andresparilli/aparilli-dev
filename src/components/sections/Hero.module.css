@@ -19,16 +19,16 @@
   -webkit-mask-image: radial-gradient(ellipse at center, black 0%, transparent 70%);
 }
 
-/* Decorative orb */
 .orb {
   position: absolute;
-  top: 20%;
-  right: -200px;
+  top: 15%;
+  right: -100px;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+  background: radial-gradient(circle, var(--accent-glow) 0%, var(--accent-dim) 40%, transparent 70%);
   pointer-events: none;
-  animation: pulse-glow 6s ease-in-out infinite;
+  animation: pulse-glow 8s ease-in-out infinite alternate, float 12s ease-in-out infinite;
+  filter: blur(40px);
 }
 
 .content {
