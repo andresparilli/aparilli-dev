@@ -31,7 +31,7 @@ export function generateSEO(props: SEOProps = {}): Metadata {
       siteName: "aparilli.dev",
       locale: "es_VE",
       type: "website",
-      images: [{ url: `${url}/og-image.svg`, width: 1200, height: 630 }],
+      images: [{ url: ogImage, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",

@@ -1,0 +1,101 @@
+# Andrés E. Parilli — Perfil Profesional Completo
+
+> Este documento contiene la biografía, experiencia, educación, certificaciones, proyectos y detalles personales consolidados de Andrés E. Parilli Marcano.
+
+---
+
+## 1. Biografía Personal y Filosofía
+
+Nacido el 18 de marzo de 1986 en Caracas, Venezuela. De signo solar Piscis, ascendente Acuario y luna en Géminis. Andrés es adoptado, una experiencia de vida que ha moldeado su visión resiliente, pragmática y profunda del mundo. Está casado con Erika y es padre de Ricardo.
+
+Profesionalmente, conecta la visión estratégica con la profundidad técnica. Su filosofía de trabajo se resume en: *"Construyo sistemas que piensan, proyectos que duran, y equipos que operan solos."* Considera que la tecnología no es solo escribir código, sino mapear el norte y establecer la infraestructura necesaria para que las ideas operen con autonomía y escalabilidad. La astrología le ha enseñado a mirar el mapa completo de las situaciones para guiar la toma de decisiones.
+
+---
+
+## 2. Experiencia Profesional
+
+### IT Director & Lead Developer @ The U For You
+*2019 — Presente*
+- Dirección del área tecnológica para una plataforma CRM de inmigración y educación internacional que atiende a más de 500 estudiantes activos.
+- Desarrollo del frontend con Next.js y React.
+- Integración de bases de datos Firebase/Firestore y diseño de flujos automatizados con n8n y agentes inteligentes.
+
+### CEO & Lead Developer @ Grupo Plus Tech
+*2019 — Presente*
+- Liderazgo de holding tecnológico enfocado en infraestructura, automatizaciones avanzadas y desarrollo de agentes IA.
+- Gestión de servidores dedicados utilizando Coolify, Docker, Traefik y Linux.
+- Diseño y mantenimiento de flujos en n8n y orquestación del ecosistema de agentes IA.
+
+### Fundador & Desarrollador @ Caminarte Baruta
+*2022 — Presente*
+- Creación de la plataforma web interactiva para el festival cultural anual de arte urbano en Caracas.
+- Implementación de mapas interactivos con Leaflet.js, formularios de registro de artistas y gestión de itinerarios.
+
+### Experiencias Previas
+- **Supervisor de Seguridad / Trabajos en Altura** (Corporación Altitud / Proman, 2011)
+- **Encargado de Informática** (Refrimaster, C.A., 2008): Soporte técnico y administración de redes.
+- **Operador de Campo** (CardClub, 2009)
+- **Ayudante de Informática** (Advantel, C.A., 2007)
+
+---
+
+## 3. Educación y Certificaciones
+
+### Educación Formal e Independiente
+- **Ingeniería de Sistemas** (Universidad Nacional Abierta, Caracas, 2014 — 2020)
+- **Bootcamps de React, Python, Django y TypeScript** (Código Facilito, 2023 — 2024)
+- **Certificaciones en Tecnología Digital y Recursos Informáticos** (NextU, 2017 — 2018)
+- **Informática** (Instituto Universitario Nuevas Profesiones, 2013 — 2014)
+- **Computación** (Universidad Nueva Esparta, 2008 — 2010)
+
+### Certificaciones Clave
+- *Desarrollo Web con React*, Código Facilito (2024)
+- *TypeScript Profesional*, Código Facilito (2024)
+- *React Router y Componentes Avanzados*, Código Facilito (2024)
+- *Testing en React con Jest*, Código Facilito (2024)
+- *HTML5 & CSS3 Intermedio-Avanzado*, NextU (2023)
+- *Bootstrap & Foundation Framework*, NextU (2023)
+- *Desarrollo Web Full Stack (Proyecto Final)*, Código Facilito (2024)
+- *Python Avanzado*, Código Facilito (2023)
+- *Django Testing*, Código Facilito (2023)
+- *CSS & Responsive Design*, SoloLearn (2022)
+- *Desarrollo de Plugins WordPress*, Universidad del Istmo (2022)
+
+---
+
+## 4. Portafolio de Proyectos
+
+### 1. The U For You (https://tu4u.com)
+* CRM especializado para gestión de estudiantes de educación internacional.
+* **Tags:** Next.js, Firebase, n8n, CRM, React.
+
+### 2. Grupo Plus Tech (https://grupoplustech.com)
+* Holding de servicios tecnológicos y automatización empresarial.
+* **Tags:** OpenClaw, Coolify, n8n, Docker, Linux, Agents IA.
+
+### 3. Caminarte Baruta (https://github.com/grupoplustech/caminartebaruta)
+* Plataforma del festival cultural con mapa y base de datos de artistas.
+* **Tags:** Next.js, TypeScript, CSS Modules, Leaflet.js.
+
+### 4. Wellness Hub (TWH)
+* Portal médico completo integrado con la facturación electrónica DGI de Panamá.
+* **Tags:** Next.js, TypeScript, PostgreSQL, DGI Panama, Stripe.
+
+### 5. Ganadero 507
+* Sistema SaaS para el control y registro ganadero en Venezuela.
+* **Tags:** Next.js, TypeScript, PostgreSQL, Charts.
+
+### 6. OpenClaw Ecosystem
+* Orquestación de agentes de IA: Alf (orquestador), Grace (monitoreo), Jagu (CRM), Handy (WhatsApp), French (fitness), Mel (relaciones) operando sobre canales de Telegram.
+* **Tags:** OpenClaw, Agents IA, Telegram Bot, Python, Node.js.
+
+---
+
+## 5. Habilidades Técnicas por Categorías
+
+* **Frontend:** React, Next.js, TypeScript, CSS Modules, HTML5, CSS3, JavaScript.
+* **Backend y DB:** Node.js, Python, Django, PostgreSQL, Firebase/Firestore.
+* **Infraestructura y Cloud:** Linux (Hetzner), Docker, Coolify, Traefik, Cloudflare, Webhooks, Crons.
+* **Inteligencia Artificial y Automatización:** n8n, OpenClaw SDK (Agentes IA orquestados), integraciones con Telegram API y bots.
+* **Metodología y Herramientas:** Git/GitHub, Zoho CRM, planificación de proyectos IT, liderazgo técnico.
+* **Idiomas:** Español (Nativo), Inglés (Profesional), Italiano (Elemental).

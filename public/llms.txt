@@ -1,0 +1,29 @@
+# aparilli.dev
+
+> Portafolio personal y CV digital de Andrés E. Parilli, IT Director @ The U For You & CEO @ Grupo Plus Tech.
+
+## Información General
+- **Nombre:** Andrés E. Parilli Marcano
+- **Ubicación:** Caracas, Venezuela (UTC-4)
+- **Email:** andres@grupoplustech.com
+- **Telegram:** @aparilli
+- **GitHub:** github.com/andresparilli
+- **LinkedIn:** linkedin.com/in/andresparilli
+
+## Perfil Profesional
+Andrés es un IT Director y Tech Entrepreneur con más de 7 años de experiencia liderando y construyendo infraestructura, CRM robustos, sistemas automáticos y orquestaciones con agentes de Inteligencia Artificial (OpenClaw).
+
+## Páginas Clave
+- [Home (/)](https://aparilli.dev/): Presentación, proyectos destacados y estadísticas rápidas.
+- [About (/about)](https://aparilli.dev/about): Biografía detallada, timeline profesional, educación, certificaciones e intereses astrológicos.
+- [Projects (/projects)](https://aparilli.dev/projects): Portafolio completo de proyectos activos y archivados.
+- [CV (/cv)](https://aparilli.dev/cv): Hoja de vida digital interactiva.
+- [Contact (/contact)](https://aparilli.dev/contact): Formulario e información de contacto directo.
+- [llms.txt](https://aparilli.dev/llms.txt): Este archivo de metadatos para LLMs.
+- [llms-full.txt](https://aparilli.dev/llms-full.txt): Texto consolidado de todo el portafolio para lectura completa.
+
+## Stack Tecnológico
+- **Frontend:** Next.js 16 (App Router), TypeScript, CSS Modules (sin Tailwind por decisión de diseño).
+- **Backend/DB:** Node.js, Python, PostgreSQL, Firebase.
+- **DevOps/Infraestructura:** Docker, Coolify, Traefik, Linux, Cloudflare.
+- **Automatización:** n8n, OpenClaw (Ecosistema de Agentes IA).

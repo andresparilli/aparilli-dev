@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://aparilli.dev/sitemap.xml
+LLMs-txt: https://aparilli.dev/llms.txt
+LLMs-full-txt: https://aparilli.dev/llms-full.txt
