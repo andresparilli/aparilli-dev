@@ -38,7 +38,6 @@ export default function Footer() {
 
       <div className={styles.bottom}>
         <span>© {year} Andrés Parilli. Caracas, Venezuela.</span>
-        <span className={styles.astro}>{profile.astrology.sun} · {profile.astrology.ascendant} Asc</span>
       </div>
     </footer>
   );

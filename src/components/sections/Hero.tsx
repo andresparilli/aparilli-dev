@@ -54,12 +54,6 @@ export default function Hero() {
           </Link>
         </div>
 
-        {/* Astrology - subtle, at the bottom */}
-        <div className={styles.astroBadge}>
-          <span>{profile.astrology.sun}</span>
-          <span className={styles.dot}>·</span>
-          <span>{profile.astrology.ascendant} Asc</span>
-        </div>
 
         {/* Scroll indicator */}
         <div className={styles.scroll} aria-hidden="true">
