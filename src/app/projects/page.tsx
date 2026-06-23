@@ -1,6 +1,13 @@
 import Link from "next/link";
 import { projects, type Project } from "@/data/projects";
+import { generateSEO } from "@/components/layout/SEO";
 import styles from "./projects.module.css";
+
+export const metadata = generateSEO({
+  title: "Proyectos — Andrés E. Parilli",
+  description: "Sistemas que construyo, mantengo y sigo mejorando. Proyectos tecnológicos y automatizaciones con Inteligencia Artificial.",
+  path: "/projects",
+});
 
 export default function ProjectsPage() {
   return (

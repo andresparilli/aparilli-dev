@@ -1,7 +1,14 @@
 import Link from "next/link";
 import { certifications } from "@/data/certifications";
 import { workExperience, education, skills, languages } from "@/data/cv";
+import { generateSEO } from "@/components/layout/SEO";
 import styles from "./cv.module.css";
+
+export const metadata = generateSEO({
+  title: "Curriculum Vitae — Andrés E. Parilli",
+  description: "Trayectoria profesional, educación, aptitudes, certificaciones e idiomas de Andrés E. Parilli.",
+  path: "/cv",
+});
 
 export default function CVPage() {
   return (

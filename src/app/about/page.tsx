@@ -1,7 +1,14 @@
 import Link from "next/link";
 import { profile } from "@/data/profile";
 import { workExperience } from "@/data/cv";
+import { generateSEO } from "@/components/layout/SEO";
 import styles from "./about.module.css";
+
+export const metadata = generateSEO({
+  title: "Sobre Mí — Andrés E. Parilli",
+  description: "IT Director, Emprendedor y Orquestador de Sistemas. Biografía, trayectoria profesional y resonancia astrológica.",
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (
