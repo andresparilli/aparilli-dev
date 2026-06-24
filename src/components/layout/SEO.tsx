@@ -11,8 +11,8 @@ interface SEOProps {
 
 export function generateSEO(props: SEOProps = {}): Metadata {
   const {
-    title = `${profile.shortName} — IT Director & Tech Entrepreneur`,
-    description = profile.tagline,
+    title = "Desarrollo Web, Apps y SEO | aparilli.dev",
+    description = "Creamos experiencias digitales únicas: desarrollo web a medida, aplicaciones móviles y estrategias SEO para tu éxito online. Visita aparilli.dev",
     ogImage = "/og-image.png",
     path = "",
   } = props;
@@ -22,7 +22,7 @@ export function generateSEO(props: SEOProps = {}): Metadata {
   return {
     title,
     description,
-    keywords: ["Andrés Parilli", "IT Director", "Grupo Plus Tech", "The U For You", "tech entrepreneur", "Venezuela"],
+    keywords: ["Desarrollo web a medida", "Soluciones digitales", "Diseño web profesional", "Desarrollo de apps móviles", "Optimización SEO", "Marketing digital"],
     authors: [{ name: profile.shortName }],
     openGraph: {
       title,

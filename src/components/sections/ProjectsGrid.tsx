@@ -63,7 +63,7 @@ export default function ProjectsGrid() {
         <div className={styles.header}>
           <div>
             <p className="section-label">Portfolio</p>
-            <h2 className={styles.title}>Proyectos destacados</h2>
+            <h2 className={styles.title}>Proyectos de Desarrollo Web y Apps Destacados</h2>
           </div>
           <Link href="/projects" className="btn btn-secondary">
             Ver todos →

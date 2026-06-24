@@ -10,7 +10,7 @@ export default function Hero() {
 
       <div className={styles.content}>
         {/* Name */}
-        <h1 className={styles.name}>{profile.name}</h1>
+        <h1 className={styles.name}>Desarrollo Web a Medida y Soluciones Digitales</h1>
 
         {/* Title */}
         <p className={styles.title}>
@@ -25,7 +25,7 @@ export default function Hero() {
 
         {/* Technical Specialties Subtitle */}
         <p className={styles.subtitle}>
-          DevOps · Full-Stack Developer · AI Agent Architect
+          DevOps · Full-Stack · AI · Desarrollo de Apps Móviles · Optimización SEO · Marketing Digital
         </p>
 
         {/* Tagline */}
