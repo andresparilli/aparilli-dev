@@ -25,8 +25,8 @@ export default function HomePage() {
                 <span className={styles.statLabel}>años en tecnología</span>
               </div>
               <div className={styles.stat}>
-                <span className={styles.statNum}>500+</span>
-                <span className={styles.statLabel}>estudiantes activos</span>
+                <span className={styles.statNum}>12+</span>
+                <span className={styles.statLabel}>plataformas desplegadas</span>
               </div>
               <div className={styles.stat}>
                 <span className={styles.statNum}>6+</span>
