@@ -1,5 +1,6 @@
 import Hero from "@/components/sections/Hero";
 import ProjectsGrid from "@/components/sections/ProjectsGrid";
+import LatestBlogSection from "@/components/sections/LatestBlogSection";
 import styles from "./page.module.css";
 import { profile } from "@/data/profile";
 
@@ -7,6 +8,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <LatestBlogSection />
       <ProjectsGrid />
 
       {/* Quick bio strip */}
