@@ -32,6 +32,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+import MarkdownContent from '@/components/Blog/MarkdownContent';
+
 export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
@@ -39,9 +41,6 @@ export default async function BlogPostPage({ params }: Props) {
   if (!post) {
     notFound();
   }
-
-  // Format markdown content paragraphs
-  const contentParagraphs = post.content.split('\n\n');
 
   return (
     <article style={{ maxWidth: '800px', margin: '0 auto', padding: '120px 24px 80px' }}>
@@ -73,15 +72,8 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
       </div>
 
-      <div
-        style={{
-          color: '#cbd5e1',
-          fontSize: '1.1rem',
-          lineHeight: 1.8,
-          whiteSpace: 'pre-wrap',
-        }}
-      >
-        {post.content}
+      <div style={{ marginTop: '24px' }}>
+        <MarkdownContent content={post.content} />
       </div>
 
       {/* CTA Box */}
