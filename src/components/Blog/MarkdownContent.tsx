@@ -83,6 +83,8 @@ export default function MarkdownContent({ content }: Props) {
 }
 
 function formatInline(text: string): React.ReactNode {
+  if (!text) return '';
+
   const parts: React.ReactNode[] = [];
   let lastIndex = 0;
   const regex = /(\*\*(.*?)\*\*|\[(.*?)\]\((.*?)\))/g;
@@ -93,13 +95,13 @@ function formatInline(text: string): React.ReactNode {
       parts.push(text.slice(lastIndex, match.index));
     }
 
-    if (match[2]) {
+    if (match[2] !== undefined) {
       parts.push(
         <strong key={match.index} style={{ color: '#f8fafc', fontWeight: 700 }}>
-          {match[2]}
+          {formatInline(match[2])}
         </strong>
       );
-    } else if (match[3] && match[4]) {
+    } else if (match[3] !== undefined && match[4] !== undefined) {
       parts.push(
         <a
           key={match.index}
@@ -108,7 +110,7 @@ function formatInline(text: string): React.ReactNode {
           rel="noopener noreferrer"
           style={{ color: '#818cf8', fontWeight: 600, textDecoration: 'underline' }}
         >
-          {match[3]}
+          {formatInline(match[3])}
         </a>
       );
     }
