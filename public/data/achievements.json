@@ -1,0 +1,1957 @@
+[
+  {
+    "id": "let_him_cook",
+    "name": "Let Him Cook",
+    "description": "Let Hermes run a serious autonomous tool chain in one session.",
+    "category": "Agent Autonomy",
+    "icon": "flame",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782331484,
+    "evidence": {
+      "session_id": "20260617_103525_24a790",
+      "title": "The U For You",
+      "value": 256
+    },
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 200
+      },
+      {
+        "name": "Silver",
+        "threshold": 500
+      },
+      {
+        "name": "Gold",
+        "threshold": 1200
+      },
+      {
+        "name": "Diamond",
+        "threshold": 3000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 8000
+      }
+    ]
+  },
+  {
+    "id": "autonomous_avalanche",
+    "name": "Autonomous Avalanche",
+    "description": "Accumulate a lifetime avalanche of Hermes tool calls across sessions.",
+    "category": "Agent Autonomy",
+    "icon": "avalanche",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Silver",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 1000
+      },
+      {
+        "name": "Silver",
+        "threshold": 3000
+      },
+      {
+        "name": "Gold",
+        "threshold": 8000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 20000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 50000
+      }
+    ]
+  },
+  {
+    "id": "toolchain_maxxer",
+    "name": "Toolchain Maxxer",
+    "description": "Use a wide spread of distinct Hermes tools in one session.",
+    "category": "Agent Autonomy",
+    "icon": "nodes",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1788502168,
+    "evidence": {
+      "session_id": "20260828_125411_7ac6f0",
+      "title": "hay algún Rodrigo López para ufv en Zoho o…",
+      "value": 23
+    },
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 18
+      },
+      {
+        "name": "Silver",
+        "threshold": 28
+      },
+      {
+        "name": "Gold",
+        "threshold": 45
+      },
+      {
+        "name": "Diamond",
+        "threshold": 70
+      },
+      {
+        "name": "Olympian",
+        "threshold": 100
+      }
+    ]
+  },
+  {
+    "id": "full_send",
+    "name": "Full Send",
+    "description": "Terminal, files, and web/browser all get involved in one real run.",
+    "category": "Agent Autonomy",
+    "icon": "rocket",
+    "secret": false,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": []
+  },
+  {
+    "id": "subagent_commander",
+    "name": "Subagent Commander",
+    "description": "Coordinate delegated agent work.",
+    "category": "Agent Autonomy",
+    "icon": "branch",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 5
+      },
+      {
+        "name": "Silver",
+        "threshold": 40
+      },
+      {
+        "name": "Gold",
+        "threshold": 100
+      },
+      {
+        "name": "Diamond",
+        "threshold": 1000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 5000
+      }
+    ]
+  },
+  {
+    "id": "background_process_enjoyer",
+    "name": "Background Process Enjoyer",
+    "description": "Start or control enough long-running processes to deserve the title.",
+    "category": "Agent Autonomy",
+    "icon": "daemon",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Diamond",
+    "unlocked_at": 1788502168,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 300
+      },
+      {
+        "name": "Silver",
+        "threshold": 800
+      },
+      {
+        "name": "Gold",
+        "threshold": 2000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 6000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 15000
+      }
+    ]
+  },
+  {
+    "id": "cron_necromancer",
+    "name": "Cron Necromancer",
+    "description": "Raise scheduled autonomous jobs from the dead.",
+    "category": "Agent Autonomy",
+    "icon": "clock",
+    "secret": false,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 1000
+      },
+      {
+        "name": "Silver",
+        "threshold": 3000
+      },
+      {
+        "name": "Gold",
+        "threshold": 8000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 20000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 50000
+      }
+    ]
+  },
+  {
+    "id": "red_text_connoisseur",
+    "name": "Red Text Connoisseur",
+    "description": "Encounter enough errors to develop a palate for red text.",
+    "category": "Debugging Chaos",
+    "icon": "warning",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Silver",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 1500
+      },
+      {
+        "name": "Silver",
+        "threshold": 4000
+      },
+      {
+        "name": "Gold",
+        "threshold": 10000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 25000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 75000
+      }
+    ]
+  },
+  {
+    "id": "stack_trace_sommelier",
+    "name": "Stack Trace Sommelier",
+    "description": "Taste tracebacks by the flight, not by the sip.",
+    "category": "Debugging Chaos",
+    "icon": "wine",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 300
+      },
+      {
+        "name": "Silver",
+        "threshold": 1000
+      },
+      {
+        "name": "Gold",
+        "threshold": 3000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 8000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 20000
+      }
+    ]
+  },
+  {
+    "id": "actually_read_the_logs",
+    "name": "Actually Read The Logs",
+    "description": "Inspect logs repeatedly instead of guessing.",
+    "category": "Debugging Chaos",
+    "icon": "scroll",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 1000
+      },
+      {
+        "name": "Silver",
+        "threshold": 3000
+      },
+      {
+        "name": "Gold",
+        "threshold": 8000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 20000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 50000
+      }
+    ]
+  },
+  {
+    "id": "port_3000_taken",
+    "name": "Port 3000 Is Taken",
+    "description": "Discover dev-server port conflict patterns enough times to become numb.",
+    "category": "Debugging Chaos",
+    "icon": "plug",
+    "secret": true,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 15
+      },
+      {
+        "name": "Silver",
+        "threshold": 40
+      },
+      {
+        "name": "Gold",
+        "threshold": 100
+      },
+      {
+        "name": "Diamond",
+        "threshold": 300
+      },
+      {
+        "name": "Olympian",
+        "threshold": 1000
+      }
+    ]
+  },
+  {
+    "id": "permission_denied_any_percent",
+    "name": "Permission Denied Any%",
+    "description": "Speedrun into permission walls.",
+    "category": "Debugging Chaos",
+    "icon": "lock",
+    "secret": true,
+    "unlocked": true,
+    "tier": "Silver",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 25
+      },
+      {
+        "name": "Silver",
+        "threshold": 75
+      },
+      {
+        "name": "Gold",
+        "threshold": 200
+      },
+      {
+        "name": "Diamond",
+        "threshold": 600
+      },
+      {
+        "name": "Olympian",
+        "threshold": 1500
+      }
+    ]
+  },
+  {
+    "id": "dependency_hell_tourist",
+    "name": "Dependency Hell Tourist",
+    "description": "Package installs fail, then somehow life continues.",
+    "category": "Debugging Chaos",
+    "icon": "package_skull",
+    "secret": false,
+    "unlocked": true,
+    "tier": null,
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": []
+  },
+  {
+    "id": "the_fix_was_restarting",
+    "name": "The Fix Was Restarting It",
+    "description": "Restart after enough error clusters to call it a technique.",
+    "category": "Debugging Chaos",
+    "icon": "restart",
+    "secret": false,
+    "unlocked": true,
+    "tier": null,
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": []
+  },
+  {
+    "id": "forgot_the_env_var",
+    "name": "Forgot The Env Var",
+    "description": "Auth or configuration failed because an environment variable was missing.",
+    "category": "Debugging Chaos",
+    "icon": "key",
+    "secret": true,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 5000
+      },
+      {
+        "name": "Silver",
+        "threshold": 15000
+      },
+      {
+        "name": "Gold",
+        "threshold": 40000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 100000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 250000
+      }
+    ]
+  },
+  {
+    "id": "yaml_colon_incident",
+    "name": "YAML Colon Incident",
+    "description": "Configuration syntax bites back.",
+    "category": "Debugging Chaos",
+    "icon": "colon",
+    "secret": true,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 1000
+      },
+      {
+        "name": "Silver",
+        "threshold": 3000
+      },
+      {
+        "name": "Gold",
+        "threshold": 8000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 20000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 50000
+      }
+    ]
+  },
+  {
+    "id": "docker_name_collision",
+    "name": "Docker Name Collision",
+    "description": "A container name already exists. Of course it does.",
+    "category": "Debugging Chaos",
+    "icon": "container",
+    "secret": true,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 75
+      },
+      {
+        "name": "Silver",
+        "threshold": 200
+      },
+      {
+        "name": "Gold",
+        "threshold": 600
+      },
+      {
+        "name": "Diamond",
+        "threshold": 1500
+      },
+      {
+        "name": "Olympian",
+        "threshold": 4000
+      }
+    ]
+  },
+  {
+    "id": "supposed_to_be_quick",
+    "name": "This Was Supposed To Be Quick",
+    "description": "A tiny ask becomes an entire expedition.",
+    "category": "Vibe Coding",
+    "icon": "melting_clock",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Silver",
+    "unlocked_at": 1782331484,
+    "evidence": {
+      "session_id": "20260617_103525_24a790",
+      "title": "The U For You",
+      "value": 610
+    },
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 300
+      },
+      {
+        "name": "Silver",
+        "threshold": 600
+      },
+      {
+        "name": "Gold",
+        "threshold": 1200
+      },
+      {
+        "name": "Diamond",
+        "threshold": 2500
+      },
+      {
+        "name": "Olympian",
+        "threshold": 6000
+      }
+    ]
+  },
+  {
+    "id": "one_more_small_change",
+    "name": "One More Small Change",
+    "description": "Make enough file edits in one session to invalidate the phrase small change.",
+    "category": "Vibe Coding",
+    "icon": "pencil",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1788502168,
+    "evidence": {
+      "session_id": "20260731_004928_2ffc05",
+      "title": "Cuanod te pida el reporte no me mandes los pdf, creme el Rep...",
+      "value": 190
+    },
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 150
+      },
+      {
+        "name": "Silver",
+        "threshold": 400
+      },
+      {
+        "name": "Gold",
+        "threshold": 1000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 3000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 8000
+      }
+    ]
+  },
+  {
+    "id": "vibe_architect",
+    "name": "Vibe Architect",
+    "description": "Touch a broad surface area in one project session.",
+    "category": "Vibe Coding",
+    "icon": "blueprint",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1788502168,
+    "evidence": {
+      "session_id": "20260814_095123_0ceef3",
+      "title": "Puedes ubicar el topic de proniñez para añadir…",
+      "value": 687
+    },
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 300
+      },
+      {
+        "name": "Silver",
+        "threshold": 700
+      },
+      {
+        "name": "Gold",
+        "threshold": 1500
+      },
+      {
+        "name": "Diamond",
+        "threshold": 4000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 10000
+      }
+    ]
+  },
+  {
+    "id": "pixel_goblin",
+    "name": "Pixel Goblin",
+    "description": "Do sustained frontend, CSS, SVG, or visual tuning.",
+    "category": "Vibe Coding",
+    "icon": "pixel",
+    "secret": false,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 20000
+      },
+      {
+        "name": "Silver",
+        "threshold": 50000
+      },
+      {
+        "name": "Gold",
+        "threshold": 120000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 300000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 800000
+      }
+    ]
+  },
+  {
+    "id": "ship_first_ask_later",
+    "name": "Ship First, Ask Later",
+    "description": "Git activity after a serious tool chain.",
+    "category": "Vibe Coding",
+    "icon": "ship",
+    "secret": false,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": []
+  },
+  {
+    "id": "css_exorcist",
+    "name": "CSS Exorcist",
+    "description": "Cast repeated styling demons out of the interface.",
+    "category": "Vibe Coding",
+    "icon": "spark_cursor",
+    "secret": false,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 10000
+      },
+      {
+        "name": "Silver",
+        "threshold": 30000
+      },
+      {
+        "name": "Gold",
+        "threshold": 80000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 200000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 500000
+      }
+    ]
+  },
+  {
+    "id": "one_character_fix",
+    "name": "One Character Fix",
+    "description": "A tiny edit after a pile of errors. Painful. Beautiful.",
+    "category": "Vibe Coding",
+    "icon": "needle",
+    "secret": true,
+    "unlocked": true,
+    "tier": null,
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": []
+  },
+  {
+    "id": "skillsmith",
+    "name": "Skillsmith",
+    "description": "Work with Hermes skills enough to leave fingerprints.",
+    "category": "Hermes Native",
+    "icon": "hammer_scroll",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 5000
+      },
+      {
+        "name": "Silver",
+        "threshold": 15000
+      },
+      {
+        "name": "Gold",
+        "threshold": 40000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 100000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 250000
+      }
+    ]
+  },
+  {
+    "id": "skill_issue_skill_created",
+    "name": "Skill Issue? Skill Created.",
+    "description": "Create or patch durable procedures instead of repeating yourself.",
+    "category": "Hermes Native",
+    "icon": "anvil",
+    "secret": false,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 25
+      },
+      {
+        "name": "Silver",
+        "threshold": 75
+      },
+      {
+        "name": "Gold",
+        "threshold": 200
+      },
+      {
+        "name": "Diamond",
+        "threshold": 600
+      },
+      {
+        "name": "Olympian",
+        "threshold": 1500
+      }
+    ]
+  },
+  {
+    "id": "memory_keeper",
+    "name": "Memory Keeper",
+    "description": "Persist durable knowledge with memory or Mnemosyne.",
+    "category": "Hermes Native",
+    "icon": "crystal",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782334164,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 100
+      },
+      {
+        "name": "Silver",
+        "threshold": 300
+      },
+      {
+        "name": "Gold",
+        "threshold": 1000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 3000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 8000
+      }
+    ]
+  },
+  {
+    "id": "memory_palace",
+    "name": "Memory Palace",
+    "description": "Build a serious durable-memory trail.",
+    "category": "Hermes Native",
+    "icon": "palace",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782334164,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 100
+      },
+      {
+        "name": "Silver",
+        "threshold": 300
+      },
+      {
+        "name": "Gold",
+        "threshold": 1000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 3000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 8000
+      }
+    ]
+  },
+  {
+    "id": "context_dragon",
+    "name": "Context Dragon",
+    "description": "Brush against compression, huge context, or token pressure repeatedly.",
+    "category": "Hermes Native",
+    "icon": "dragon",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782334164,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 5000
+      },
+      {
+        "name": "Silver",
+        "threshold": 15000
+      },
+      {
+        "name": "Gold",
+        "threshold": 40000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 100000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 250000
+      }
+    ]
+  },
+  {
+    "id": "gateway_dweller",
+    "name": "Gateway Dweller",
+    "description": "Live through gateway-connected Hermes workflows.",
+    "category": "Hermes Native",
+    "icon": "antenna",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 5000
+      },
+      {
+        "name": "Silver",
+        "threshold": 15000
+      },
+      {
+        "name": "Gold",
+        "threshold": 40000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 100000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 250000
+      }
+    ]
+  },
+  {
+    "id": "plugin_goblin",
+    "name": "Plugin Goblin",
+    "description": "Use or develop plugins enough that the dashboard notices.",
+    "category": "Hermes Native",
+    "icon": "puzzle",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Gold",
+    "unlocked_at": 1788502168,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 1000
+      },
+      {
+        "name": "Silver",
+        "threshold": 3000
+      },
+      {
+        "name": "Gold",
+        "threshold": 8000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 20000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 50000
+      }
+    ]
+  },
+  {
+    "id": "rollback_wizard",
+    "name": "Rollback Wizard",
+    "description": "Invoke rollback/checkpoint recovery magic.",
+    "category": "Hermes Native",
+    "icon": "rewind",
+    "secret": true,
+    "unlocked": true,
+    "tier": "Gold",
+    "unlocked_at": 1788502168,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 500
+      },
+      {
+        "name": "Silver",
+        "threshold": 1500
+      },
+      {
+        "name": "Gold",
+        "threshold": 4000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 10000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 25000
+      }
+    ]
+  },
+  {
+    "id": "rabbit_hole_certified",
+    "name": "Rabbit Hole Certified",
+    "description": "Search or extract enough web content to qualify as a research spiral.",
+    "category": "Research/Web",
+    "icon": "spiral",
+    "secret": false,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 400
+      },
+      {
+        "name": "Silver",
+        "threshold": 1200
+      },
+      {
+        "name": "Gold",
+        "threshold": 3000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 8000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 20000
+      }
+    ]
+  },
+  {
+    "id": "citation_goblin",
+    "name": "Citation Goblin",
+    "description": "Extract enough web pages to become a tiny librarian.",
+    "category": "Research/Web",
+    "icon": "quote",
+    "secret": false,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 100
+      },
+      {
+        "name": "Silver",
+        "threshold": 300
+      },
+      {
+        "name": "Gold",
+        "threshold": 1000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 3000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 8000
+      }
+    ]
+  },
+  {
+    "id": "docs_archaeologist",
+    "name": "Docs Archaeologist",
+    "description": "Dig through documentation sources over and over.",
+    "category": "Research/Web",
+    "icon": "compass",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1788502168,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 5000
+      },
+      {
+        "name": "Silver",
+        "threshold": 15000
+      },
+      {
+        "name": "Gold",
+        "threshold": 40000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 100000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 250000
+      }
+    ]
+  },
+  {
+    "id": "browser_possession",
+    "name": "Browser Possession",
+    "description": "Possess a browser through automation repeatedly.",
+    "category": "Research/Web",
+    "icon": "browser",
+    "secret": false,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 75
+      },
+      {
+        "name": "Silver",
+        "threshold": 200
+      },
+      {
+        "name": "Gold",
+        "threshold": 600
+      },
+      {
+        "name": "Diamond",
+        "threshold": 1500
+      },
+      {
+        "name": "Olympian",
+        "threshold": 4000
+      }
+    ]
+  },
+  {
+    "id": "terminal_goblin",
+    "name": "Terminal Goblin",
+    "description": "Spend serious time in shell-land.",
+    "category": "Tool Mastery",
+    "icon": "terminal",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Silver",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 750
+      },
+      {
+        "name": "Silver",
+        "threshold": 2000
+      },
+      {
+        "name": "Gold",
+        "threshold": 6000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 15000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 50000
+      }
+    ]
+  },
+  {
+    "id": "patch_wizard",
+    "name": "Patch Wizard",
+    "description": "Bend files to your will with targeted patches.",
+    "category": "Tool Mastery",
+    "icon": "wand",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1788502168,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 250
+      },
+      {
+        "name": "Silver",
+        "threshold": 750
+      },
+      {
+        "name": "Gold",
+        "threshold": 2000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 6000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 15000
+      }
+    ]
+  },
+  {
+    "id": "file_archaeologist",
+    "name": "File Archaeologist",
+    "description": "Dig through the filesystem with reads and searches.",
+    "category": "Tool Mastery",
+    "icon": "folder",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 750
+      },
+      {
+        "name": "Silver",
+        "threshold": 2000
+      },
+      {
+        "name": "Gold",
+        "threshold": 6000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 15000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 50000
+      }
+    ]
+  },
+  {
+    "id": "image_whisperer",
+    "name": "Image Whisperer",
+    "description": "Use image generation or vision tools enough for visual work.",
+    "category": "Tool Mastery",
+    "icon": "eye",
+    "secret": false,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 100
+      },
+      {
+        "name": "Silver",
+        "threshold": 300
+      },
+      {
+        "name": "Gold",
+        "threshold": 1000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 3000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 8000
+      }
+    ]
+  },
+  {
+    "id": "voice_of_the_machine",
+    "name": "Voice Of The Machine",
+    "description": "Use text-to-speech or voice tooling repeatedly.",
+    "category": "Tool Mastery",
+    "icon": "wave",
+    "secret": false,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 10
+      },
+      {
+        "name": "Silver",
+        "threshold": 30
+      },
+      {
+        "name": "Gold",
+        "threshold": 100
+      },
+      {
+        "name": "Diamond",
+        "threshold": 300
+      },
+      {
+        "name": "Olympian",
+        "threshold": 800
+      }
+    ]
+  },
+  {
+    "id": "model_hopper",
+    "name": "Model Hopper",
+    "description": "Switch or inspect providers/models enough to count as a habit.",
+    "category": "Model Lore",
+    "icon": "swap",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 10000
+      },
+      {
+        "name": "Silver",
+        "threshold": 30000
+      },
+      {
+        "name": "Gold",
+        "threshold": 80000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 200000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 500000
+      }
+    ]
+  },
+  {
+    "id": "openrouter_enjoyer",
+    "name": "OpenRouter Enjoyer",
+    "description": "Route model work through OpenRouter repeatedly.",
+    "category": "Model Lore",
+    "icon": "router",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Silver",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 250
+      },
+      {
+        "name": "Silver",
+        "threshold": 750
+      },
+      {
+        "name": "Gold",
+        "threshold": 2000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 6000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 15000
+      }
+    ]
+  },
+  {
+    "id": "codex_conjurer",
+    "name": "Codex Conjurer",
+    "description": "Summon Codex-flavored assistance often enough for a ritual.",
+    "category": "Model Lore",
+    "icon": "codex",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1788502168,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 500
+      },
+      {
+        "name": "Silver",
+        "threshold": 1500
+      },
+      {
+        "name": "Gold",
+        "threshold": 4000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 10000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 25000
+      }
+    ]
+  },
+  {
+    "id": "multi_model_mage",
+    "name": "Multi-Model Mage",
+    "description": "Use a real spread of distinct model names across Hermes history.",
+    "category": "Model Lore",
+    "icon": "prism",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Silver",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 10
+      },
+      {
+        "name": "Silver",
+        "threshold": 20
+      },
+      {
+        "name": "Gold",
+        "threshold": 40
+      },
+      {
+        "name": "Diamond",
+        "threshold": 80
+      },
+      {
+        "name": "Olympian",
+        "threshold": 160
+      }
+    ]
+  },
+  {
+    "id": "five_model_flight",
+    "name": "Five-Model Flight",
+    "description": "Try at least five distinct LLMs instead of marrying the first model that answers.",
+    "category": "Model Lore",
+    "icon": "prism",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Gold",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 5
+      },
+      {
+        "name": "Silver",
+        "threshold": 10
+      },
+      {
+        "name": "Gold",
+        "threshold": 20
+      },
+      {
+        "name": "Diamond",
+        "threshold": 40
+      },
+      {
+        "name": "Olympian",
+        "threshold": 80
+      }
+    ]
+  },
+  {
+    "id": "provider_polyglot",
+    "name": "Provider Polyglot",
+    "description": "Use models from multiple providers across Hermes history.",
+    "category": "Model Lore",
+    "icon": "swap",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Diamond",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 2
+      },
+      {
+        "name": "Silver",
+        "threshold": 3
+      },
+      {
+        "name": "Gold",
+        "threshold": 5
+      },
+      {
+        "name": "Diamond",
+        "threshold": 8
+      },
+      {
+        "name": "Olympian",
+        "threshold": 12
+      }
+    ]
+  },
+  {
+    "id": "model_sommelier",
+    "name": "Model Sommelier",
+    "description": "Taste enough model/provider conversations to develop preferences.",
+    "category": "Model Lore",
+    "icon": "wine",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Olympian",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 250
+      },
+      {
+        "name": "Silver",
+        "threshold": 750
+      },
+      {
+        "name": "Gold",
+        "threshold": 2000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 6000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 15000
+      }
+    ]
+  },
+  {
+    "id": "claude_confidant",
+    "name": "Claude Confidant",
+    "description": "Bring Claude-flavored reasoning into the workflow repeatedly.",
+    "category": "Model Lore",
+    "icon": "quote",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Diamond",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 50
+      },
+      {
+        "name": "Silver",
+        "threshold": 150
+      },
+      {
+        "name": "Gold",
+        "threshold": 500
+      },
+      {
+        "name": "Diamond",
+        "threshold": 1500
+      },
+      {
+        "name": "Olympian",
+        "threshold": 4000
+      }
+    ]
+  },
+  {
+    "id": "gemini_cartographer",
+    "name": "Gemini Cartographer",
+    "description": "Map enough Gemini-related workflows to know the terrain.",
+    "category": "Model Lore",
+    "icon": "compass",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Diamond",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 50
+      },
+      {
+        "name": "Silver",
+        "threshold": 150
+      },
+      {
+        "name": "Gold",
+        "threshold": 500
+      },
+      {
+        "name": "Diamond",
+        "threshold": 1500
+      },
+      {
+        "name": "Olympian",
+        "threshold": 4000
+      }
+    ]
+  },
+  {
+    "id": "open_weights_pilgrim",
+    "name": "Open Weights Pilgrim",
+    "description": "Actually chat with local/open-weight models through Hermes session metadata.",
+    "category": "Model Lore",
+    "icon": "terminal",
+    "secret": false,
+    "unlocked": false,
+    "tier": null,
+    "unlocked_at": null,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 1
+      },
+      {
+        "name": "Silver",
+        "threshold": 3
+      },
+      {
+        "name": "Gold",
+        "threshold": 10
+      },
+      {
+        "name": "Diamond",
+        "threshold": 30
+      },
+      {
+        "name": "Olympian",
+        "threshold": 100
+      }
+    ]
+  },
+  {
+    "id": "toolset_cartographer",
+    "name": "Toolset Cartographer",
+    "description": "Navigate Hermes toolsets deliberately instead of treating tools as a blur.",
+    "category": "Hermes Native",
+    "icon": "compass",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Diamond",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 20
+      },
+      {
+        "name": "Silver",
+        "threshold": 60
+      },
+      {
+        "name": "Gold",
+        "threshold": 200
+      },
+      {
+        "name": "Diamond",
+        "threshold": 600
+      },
+      {
+        "name": "Olympian",
+        "threshold": 1500
+      }
+    ]
+  },
+  {
+    "id": "config_surgeon",
+    "name": "Config Surgeon",
+    "description": "Operate on real config files, manifests, env files, and dashboard settings without flinching.",
+    "category": "Hermes Native",
+    "icon": "key",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Gold",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 100
+      },
+      {
+        "name": "Silver",
+        "threshold": 300
+      },
+      {
+        "name": "Gold",
+        "threshold": 1000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 3000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 10000
+      }
+    ]
+  },
+  {
+    "id": "rebase_acrobat",
+    "name": "Rebase Acrobat",
+    "description": "Handle real git history surgery: rebase, conflict, merge, fetch, push.",
+    "category": "Vibe Coding",
+    "icon": "branch",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Gold",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 10
+      },
+      {
+        "name": "Silver",
+        "threshold": 30
+      },
+      {
+        "name": "Gold",
+        "threshold": 100
+      },
+      {
+        "name": "Diamond",
+        "threshold": 300
+      },
+      {
+        "name": "Olympian",
+        "threshold": 800
+      }
+    ]
+  },
+  {
+    "id": "test_suite_tamer",
+    "name": "Test Suite Tamer",
+    "description": "Run enough verification commands that green text becomes part of the ritual.",
+    "category": "Tool Mastery",
+    "icon": "daemon",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Diamond",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 100
+      },
+      {
+        "name": "Silver",
+        "threshold": 300
+      },
+      {
+        "name": "Gold",
+        "threshold": 800
+      },
+      {
+        "name": "Diamond",
+        "threshold": 2400
+      },
+      {
+        "name": "Olympian",
+        "threshold": 6000
+      }
+    ]
+  },
+  {
+    "id": "screenshot_hunter",
+    "name": "Screenshot Hunter",
+    "description": "Capture, inspect, and polish visual proof instead of just claiming it works.",
+    "category": "Tool Mastery",
+    "icon": "eye",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Silver",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 50
+      },
+      {
+        "name": "Silver",
+        "threshold": 150
+      },
+      {
+        "name": "Gold",
+        "threshold": 500
+      },
+      {
+        "name": "Diamond",
+        "threshold": 1500
+      },
+      {
+        "name": "Olympian",
+        "threshold": 5000
+      }
+    ]
+  },
+  {
+    "id": "marathon_operator",
+    "name": "Marathon Operator",
+    "description": "Accumulate a serious number of Hermes sessions.",
+    "category": "Lifestyle",
+    "icon": "marathon",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Gold",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 75
+      },
+      {
+        "name": "Silver",
+        "threshold": 200
+      },
+      {
+        "name": "Gold",
+        "threshold": 500
+      },
+      {
+        "name": "Diamond",
+        "threshold": 1500
+      },
+      {
+        "name": "Olympian",
+        "threshold": 5000
+      }
+    ]
+  },
+  {
+    "id": "weekend_warrior",
+    "name": "Weekend Warrior",
+    "description": "Run Hermes on weekends enough times to make it a lifestyle.",
+    "category": "Lifestyle",
+    "icon": "calendar",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Diamond",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 25
+      },
+      {
+        "name": "Silver",
+        "threshold": 75
+      },
+      {
+        "name": "Gold",
+        "threshold": 200
+      },
+      {
+        "name": "Diamond",
+        "threshold": 600
+      },
+      {
+        "name": "Olympian",
+        "threshold": 1500
+      }
+    ]
+  },
+  {
+    "id": "night_shift_operator",
+    "name": "Night Shift Operator",
+    "description": "Run sessions during gremlin hours repeatedly.",
+    "category": "Lifestyle",
+    "icon": "moon",
+    "secret": false,
+    "unlocked": true,
+    "tier": "Gold",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 25
+      },
+      {
+        "name": "Silver",
+        "threshold": 75
+      },
+      {
+        "name": "Gold",
+        "threshold": 200
+      },
+      {
+        "name": "Diamond",
+        "threshold": 600
+      },
+      {
+        "name": "Olympian",
+        "threshold": 1500
+      }
+    ]
+  },
+  {
+    "id": "cache_hit_appreciator",
+    "name": "Cache Hit Appreciator",
+    "description": "Notice or benefit from prompt/cache behavior.",
+    "category": "Lifestyle",
+    "icon": "cache",
+    "secret": true,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1782331484,
+    "evidence": null,
+    "tiers": [
+      {
+        "name": "Copper",
+        "threshold": 100
+      },
+      {
+        "name": "Silver",
+        "threshold": 300
+      },
+      {
+        "name": "Gold",
+        "threshold": 1000
+      },
+      {
+        "name": "Diamond",
+        "threshold": 3000
+      },
+      {
+        "name": "Olympian",
+        "threshold": 8000
+      }
+    ]
+  }
+]

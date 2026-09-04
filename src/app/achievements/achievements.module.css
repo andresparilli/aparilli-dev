@@ -1,0 +1,388 @@
+.wrapper {
+  background-color: var(--bg-primary);
+  min-height: 100vh;
+  padding-top: var(--space-lg);
+  padding-bottom: var(--space-xl);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.badgeGlow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent);
+  background-color: var(--accent-dim);
+  border: 1px solid var(--border-accent);
+  padding: 4px 12px;
+  border-radius: 9999px;
+  letter-spacing: 0.15em;
+  margin-bottom: var(--space-sm);
+  text-transform: uppercase;
+  box-shadow: 0 0 15px var(--accent-dim);
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: var(--space-sm);
+  letter-spacing: -0.03em;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: var(--text-secondary);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Stats Bar */
+.statsBar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-md);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: var(--space-lg);
+}
+
+.statBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.statLabel {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+
+.statValue {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+}
+
+.statTotal {
+  font-size: 16px;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.progressBarBg {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  height: 12px;
+  border-radius: 9999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  min-width: 200px;
+}
+
+.progressBarFill {
+  background: linear-gradient(90deg, var(--accent), var(--accent-hover));
+  height: 100%;
+  border-radius: 9999px;
+  transition: width 1s ease-out;
+  box-shadow: 0 0 10px var(--accent-glow);
+}
+
+/* Filters */
+.filterSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+.categories {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.filterBtn {
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 16px;
+  font-size: 13.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.filterBtn:hover {
+  border-color: var(--accent-glow);
+  color: var(--text-primary);
+}
+
+.filterBtn.active {
+  background-color: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+.searchWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 250px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.searchInput {
+  width: 100%;
+  background-color: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px 10px 38px;
+  color: var(--text-primary);
+  font-size: 14px;
+  outline: none;
+  transition: all var(--transition);
+}
+
+.searchInput:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 10px var(--accent-dim);
+}
+
+/* Grid & Cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+  transition: all var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  background-color: var(--bg-card-hover);
+}
+
+.cardLocked {
+  opacity: 0.45;
+  filter: grayscale(1);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.iconContainer {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all var(--transition);
+}
+
+.cardName {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+
+.cardDesc {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+  padding-top: 12px;
+  margin-top: auto;
+}
+
+.cardFooterLocked {
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+  padding-top: 12px;
+  margin-top: auto;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
+
+.cardCategory {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.unlockDate {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* Tier Badges & Borders */
+.tierBadge {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+/* Copper Tier */
+.tierCopper {
+  border-color: rgba(180, 83, 9, 0.3) !important;
+}
+.tierCopper:hover {
+  box-shadow: 0 0 15px rgba(180, 83, 9, 0.08);
+}
+.tierCopper .iconContainer {
+  background-color: rgba(180, 83, 9, 0.1);
+  color: #f59e0b;
+  border-color: rgba(180, 83, 9, 0.3);
+}
+.tierCopper .tierBadge {
+  background-color: rgba(180, 83, 9, 0.1);
+  color: #f59e0b;
+}
+
+/* Silver Tier */
+.tierSilver {
+  border-color: rgba(148, 163, 184, 0.3) !important;
+}
+.tierSilver:hover {
+  box-shadow: 0 0 15px rgba(148, 163, 184, 0.08);
+}
+.tierSilver .iconContainer {
+  background-color: rgba(148, 163, 184, 0.1);
+  color: #cbd5e1;
+  border-color: rgba(148, 163, 184, 0.3);
+}
+.tierSilver .tierBadge {
+  background-color: rgba(148, 163, 184, 0.1);
+  color: #cbd5e1;
+}
+
+/* Gold Tier */
+.tierGold {
+  border-color: rgba(217, 119, 6, 0.4) !important;
+}
+.tierGold:hover {
+  box-shadow: 0 0 20px rgba(217, 119, 6, 0.12);
+}
+.tierGold .iconContainer {
+  background-color: rgba(217, 119, 6, 0.12);
+  color: #fbbf24;
+  border-color: rgba(217, 119, 6, 0.4);
+}
+.tierGold .tierBadge {
+  background-color: rgba(217, 119, 6, 0.12);
+  color: #fbbf24;
+}
+
+/* Diamond Tier */
+.tierDiamond {
+  border-color: rgba(6, 182, 212, 0.45) !important;
+}
+.tierDiamond:hover {
+  box-shadow: 0 0 22px rgba(6, 182, 212, 0.15);
+}
+.tierDiamond .iconContainer {
+  background-color: rgba(6, 182, 212, 0.15);
+  color: #22d3ee;
+  border-color: rgba(6, 182, 212, 0.45);
+}
+.tierDiamond .tierBadge {
+  background-color: rgba(6, 182, 212, 0.15);
+  color: #22d3ee;
+}
+
+/* Olympian Tier */
+.tierOlympian {
+  border-color: rgba(168, 85, 247, 0.5) !important;
+}
+.tierOlympian:hover {
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.18);
+}
+.tierOlympian .iconContainer {
+  background-color: rgba(168, 85, 247, 0.18);
+  color: #c084fc;
+  border-color: rgba(168, 85, 247, 0.5);
+}
+.tierOlympian .tierBadge {
+  background-color: rgba(168, 85, 247, 0.18);
+  color: #c084fc;
+}
+
+/* Loader */
+.loaderArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-lg) 0;
+  color: var(--text-secondary);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.05);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: var(--space-sm);
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
