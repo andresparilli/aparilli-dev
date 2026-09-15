@@ -7,6 +7,13 @@ export interface Certification {
 }
 
 export const certifications: Certification[] = [
+  {
+    name: "Curso de Docker y DevOps",
+    issuer: "midudev",
+    year: 2026,
+    url: "https://certificados.midudev.com/8685f756-d9c2-4c1e-8b91-7b9d45e85b7c.pdf",
+    credentialId: "8685f756-d9c2-4c1e-8b91-7b9d45e85b7c",
+  },
   // GitHub Skills (via Bootcamp exercises)
   {
     name: "Desarrollo Web con React",

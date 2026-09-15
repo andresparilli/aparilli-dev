@@ -49,6 +49,7 @@ Profesionalmente, conecta la visión estratégica con la profundidad técnica. S
 - **Computación** (Universidad Nueva Esparta, 2008 — 2010)
 
 ### Certificaciones Clave
+- *Curso de Docker y DevOps*, midudev (2026) — ID: `8685f756-d9c2-4c1e-8b91-7b9d45e85b7c`
 - *Desarrollo Web con React*, Código Facilito (2024)
 - *TypeScript Profesional*, Código Facilito (2024)
 - *React Router y Componentes Avanzados*, Código Facilito (2024)

@@ -137,6 +137,15 @@
   margin: 0 0 0.25rem;
 }
 
+.certLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.certLink:hover .certName {
+  color: var(--accent, #3b82f6);
+}
+
 .certIssuer {
   font-size: 0.8rem;
   color: var(--text-muted);

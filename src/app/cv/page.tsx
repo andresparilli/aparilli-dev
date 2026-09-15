@@ -76,7 +76,18 @@ export default function CVPage() {
           <div className={styles.certsGrid}>
             {certifications.map((cert, i) => (
               <div key={i} className={styles.cert}>
-                <h3 className={styles.certName}>{cert.name}</h3>
+                {cert.url ? (
+                  <a
+                    href={cert.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.certLink}
+                  >
+                    <h3 className={styles.certName}>{cert.name} ↗</h3>
+                  </a>
+                ) : (
+                  <h3 className={styles.certName}>{cert.name}</h3>
+                )}
                 <p className={styles.certIssuer}>{cert.issuer} · {cert.year}</p>
               </div>
             ))}
