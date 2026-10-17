@@ -8,6 +8,13 @@ export interface Certification {
 
 export const certifications: Certification[] = [
   {
+    name: "Curso de GitHub Actions",
+    issuer: "midudev",
+    year: 2026,
+    url: "https://certificados.midudev.com/98825390-8483-4038-a741-fad9f854698d.pdf",
+    credentialId: "98825390-8483-4038-a741-fad9f854698d",
+  },
+  {
     name: "Curso de Docker y DevOps",
     issuer: "midudev",
     year: 2026,
