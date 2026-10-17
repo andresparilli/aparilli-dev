@@ -9,8 +9,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "preinstall": "npx only-allow pnpm"
+    "lint": "eslint"
   },
   "dependencies": {
     "next": "16.2.9",
@@ -24,6 +23,5 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
     "typescript": "^5"
-  },
-  "packageManager": "pnpm@12.5.1"
+  }
 }
