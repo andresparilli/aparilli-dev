@@ -116,9 +116,9 @@
     "category": "Agent Autonomy",
     "icon": "rocket",
     "secret": false,
-    "unlocked": false,
+    "unlocked": true,
     "tier": null,
-    "unlocked_at": null,
+    "unlocked_at": 1790743890,
     "evidence": null,
     "tiers": []
   },
@@ -333,9 +333,9 @@
     "category": "Debugging Chaos",
     "icon": "plug",
     "secret": true,
-    "unlocked": false,
-    "tier": null,
-    "unlocked_at": null,
+    "unlocked": true,
+    "tier": "Silver",
+    "unlocked_at": 1790743890,
     "evidence": null,
     "tiers": [
       {
@@ -643,9 +643,9 @@
     "category": "Vibe Coding",
     "icon": "pixel",
     "secret": false,
-    "unlocked": false,
-    "tier": null,
-    "unlocked_at": null,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1790743890,
     "evidence": null,
     "tiers": [
       {
@@ -677,9 +677,9 @@
     "category": "Vibe Coding",
     "icon": "ship",
     "secret": false,
-    "unlocked": false,
+    "unlocked": true,
     "tier": null,
-    "unlocked_at": null,
+    "unlocked_at": 1789536827,
     "evidence": null,
     "tiers": []
   },
@@ -690,9 +690,9 @@
     "category": "Vibe Coding",
     "icon": "spark_cursor",
     "secret": false,
-    "unlocked": false,
-    "tier": null,
-    "unlocked_at": null,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1790743890,
     "evidence": null,
     "tiers": [
       {
@@ -771,9 +771,9 @@
     "category": "Hermes Native",
     "icon": "anvil",
     "secret": false,
-    "unlocked": false,
-    "tier": null,
-    "unlocked_at": null,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1790743890,
     "evidence": null,
     "tiers": [
       {
@@ -1111,9 +1111,9 @@
     "category": "Research/Web",
     "icon": "browser",
     "secret": false,
-    "unlocked": false,
-    "tier": null,
-    "unlocked_at": null,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1792179380,
     "evidence": null,
     "tiers": [
       {
@@ -1247,9 +1247,9 @@
     "category": "Tool Mastery",
     "icon": "eye",
     "secret": false,
-    "unlocked": false,
-    "tier": null,
-    "unlocked_at": null,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1792655210,
     "evidence": null,
     "tiers": [
       {
