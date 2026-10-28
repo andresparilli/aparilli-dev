@@ -495,9 +495,9 @@
     "category": "Debugging Chaos",
     "icon": "container",
     "secret": true,
-    "unlocked": false,
-    "tier": null,
-    "unlocked_at": null,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1793178774,
     "evidence": null,
     "tiers": [
       {
