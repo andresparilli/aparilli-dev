@@ -1009,9 +1009,9 @@
     "category": "Research/Web",
     "icon": "spiral",
     "secret": false,
-    "unlocked": false,
-    "tier": null,
-    "unlocked_at": null,
+    "unlocked": true,
+    "tier": "Copper",
+    "unlocked_at": 1794433287,
     "evidence": null,
     "tiers": [
       {
